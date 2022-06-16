@@ -1,6 +1,8 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  return word == word.split("").reverse().join("") ? true : false;
 }
+isPalindrome("abkba");
 
 /* 
   Add your pseudocode here
